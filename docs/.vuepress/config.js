@@ -11,9 +11,20 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'sidebar', link: '/views/前端/面试/' },
+      {
+        text: 'notes', icon: 'reco-document',
+        items: [
+          { text: '面试', link: '/views/前端/面试/' }
+        ]
+      },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-
+      {
+        text: 'Contact', icon: 'reco-document',
+        items: [
+          { text: 'github', icon: 'reco-github' ,link: 'https://github.com/xiaolannuoyi/notes' },
+          { text: 'csdn', icon: 'reco-csdn' ,link: 'https://blog.csdn.net/qq_31126175' }
+        ]
+      },
     ],
     sidebar: {
       '/views/前端/面试/': [
@@ -57,9 +68,9 @@ module.exports = {
     // 作者
     author: '潇蓝诺依',
     // 备案号
-    record: 'xxxx',
+    // record: 'xxxx',
     // 项目开始时间
-    startYear: '2020',
+    startYear: '2017',
     /**
      * 密钥 (if your blog is private)
      */
@@ -68,6 +79,14 @@ module.exports = {
     //     color: '#42b983', // 登录页动画球的颜色
     //     lineColor: '#42b983' // 登录页动画线的颜色
     // }
+    // valine 设置
+    valineConfig: {
+      appId: 'HTFR2FvmAsxujRskqkQ3cRiY-gzGzoHsz',
+      appKey: 'koquk81ujmj3ba5eYyPhoigE',
+      placeholder: '填写邮箱可以收到回复提醒哦！',
+      avatar: 'wavatar',
+      recordIP: true,
+    },
   },
   markdown: {
     lineNumbers: true
