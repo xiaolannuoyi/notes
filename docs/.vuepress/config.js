@@ -3,6 +3,7 @@ module.exports = {
   description: '相逢正遇素锦年华时，未晚',
   //   dest: "",//指定 vuepress build 的输出目录
   head: [
+    ['meta',{name:'google-site-verification',content:'NTPq_-7bTDb50RnJcT6ejUs-YR-NUmwLRPt11XYkYpk'}],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
   ],
