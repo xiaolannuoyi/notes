@@ -81,8 +81,9 @@ module.exports = {
     // }
     // valine 设置
     valineConfig: {
-      appId: 'HTFR2FvmAsxujRskqkQ3cRiY-gzGzoHsz',
-      appKey: 'koquk81ujmj3ba5eYyPhoigE',
+      // 国际版
+      appId: 'OHQeHMqSUtv83CkYtw4DDIXY-MdYXbMMI',
+      appKey: 'b0pVcc3cbK8HNOYcmCNXWoFI',
       placeholder: '填写邮箱可以收到回复提醒哦！',
       avatar: 'wavatar',
       recordIP: true,
