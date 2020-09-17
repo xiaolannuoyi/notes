@@ -7,8 +7,8 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['script', {}, `if(window.location.hash){
         var checkExist = setInterval(function() {
-          if ($(window.location.hash).length) {
-              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+          if (window.location.hash.length) {
+            document.body.animate({scrollTop: window.location.hash.offset().top-90}, 1000);
               clearInterval(checkExist);
           }
         }, 100);
