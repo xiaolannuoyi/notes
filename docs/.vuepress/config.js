@@ -5,15 +5,6 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-    ['script', {}, `if(window.location.hash){
-        var checkExist = setInterval(function() {
-          if (window.location.hash.length) {
-            document.body.animate({scrollTop: window.location.hash.offset().top-90}, 1000);
-              clearInterval(checkExist);
-          }
-        }, 100);
-      }`
-    ]//滚动到指定评论位置
   ],
   base: '/notes/',
   theme: 'reco',
