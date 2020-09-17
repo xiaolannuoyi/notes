@@ -4,7 +4,16 @@ module.exports = {
   //   dest: "",//指定 vuepress build 的输出目录
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['script', {}, `if(window.location.hash){
+        var checkExist = setInterval(function() {
+          if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+          }
+        }, 100);
+      }`
+    ]//滚动到指定评论位置
   ],
   base: '/notes/',
   theme: 'reco',
@@ -21,8 +30,8 @@ module.exports = {
       {
         text: 'Contact', icon: 'reco-document',
         items: [
-          { text: 'github', icon: 'reco-github' ,link: 'https://github.com/xiaolannuoyi/notes' },
-          { text: 'csdn', icon: 'reco-csdn' ,link: 'https://blog.csdn.net/qq_31126175' }
+          { text: 'github', icon: 'reco-github', link: 'https://github.com/xiaolannuoyi/notes' },
+          { text: 'csdn', icon: 'reco-csdn', link: 'https://blog.csdn.net/qq_31126175' }
         ]
       },
     ],
