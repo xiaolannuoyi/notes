@@ -30,12 +30,13 @@ commitizen init cz-conventional-changelog --save --save-exact
 ```
 
 
+::: tip
+如果当前已经有其他适配器被使用，则会报以下错误，此时可以加上`--force`选项进行再次初始化。
 
-> 如果当前已经有其他适配器被使用，则会报以下错误，此时可以加上`--force`选项进行再次初始化。
->
-> ```js
-> Error: A previous adapter is already configured. Use --force to override
-> ```
+ ```js
+ Error: A previous adapter is already configured. Use --force to override
+ ```
+:::
 
 
 

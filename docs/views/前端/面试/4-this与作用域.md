@@ -8,7 +8,7 @@ title: this与作用域
 >
 > 作用域与this无必然联系。
 
-#作用域与作用域链
+# 作用域与作用域链
 
 全局作用域
 
@@ -80,5 +80,5 @@ title: this与作用域
 
 
 
-#[练习及参考](https://juejin.im/post/5e6358256fb9a07cd80f2e70#heading-9)
+# [练习及参考](https://juejin.im/post/5e6358256fb9a07cd80f2e70#heading-9)
 

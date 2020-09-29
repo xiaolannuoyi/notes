@@ -3,7 +3,7 @@ module.exports = {
   description: '相逢正遇素锦年华时，未晚',
   //   dest: "",//指定 vuepress build 的输出目录
   head: [
-    ['meta',{name:'google-site-verification',content:'NTPq_-7bTDb50RnJcT6ejUs-YR-NUmwLRPt11XYkYpk'}],
+    ['meta', { name: 'google-site-verification', content: 'NTPq_-7bTDb50RnJcT6ejUs-YR-NUmwLRPt11XYkYpk' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
   ],
@@ -94,12 +94,14 @@ module.exports = {
     lineNumbers: true
   },
   plugins: [
+    //看板娘
     [
       require('@vuepress-reco/vuepress-plugin-kan-ban-niang'),
       {
         theme: ['wanko'],
       }
     ],
+    //音乐播放器
     [
       require('@vuepress-reco/vuepress-plugin-bgm-player'),
       {
@@ -124,6 +126,22 @@ module.exports = {
           }
         ]
       }
-    ]
+    ],
+    [
+      ['vuepress-plugin-container']
+    ],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用",
+        buttonText: "刷新"
+      }
+    }],
+    ["vuepress-plugin-nuggets-style-copy", {
+      copyText: "复制代码",
+      tip: {
+        content: "复制成功!"
+      }
+    }],
   ]
 }

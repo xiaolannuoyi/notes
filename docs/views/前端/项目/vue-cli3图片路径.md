@@ -14,35 +14,35 @@ tags:
 # 引入图片的方式
 >图片路径用  ******* 代替
 ```html
-<template>
-  <div>
-    1.<img src="*******" alt="">
-    2.<img :src="img" alt="">
-    3. <div class="box imgurl"></div>
-    4. <div class="box" style="background: url(*******);"></div>
-  </div>
-</template>
+  <template>
+    <div>
+      1.<img src="*******" alt="">
+      2.<img :src="img" alt="">
+      3. <div class="box imgurl"></div>
+      4. <div class="box" style="background: url(*******);"></div>
+    </div>
+  </template>
 
-<script>
-export default {
-  data(){
-    return {
-      img:`*******`
+  <script>
+  export default {
+    data(){
+      return {
+        img:`*******`
+      }
     }
   }
-}
-</script>
+  </script>
 
-<style scoped>
-.box{
-  height: 200px;
-  width: 200px;
-  display: inline-block;
-}
-.imgurl{
- background: url(*******);
-}
-</style>
+  <style scoped>
+  .box{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  }
+  .imgurl{
+  background: url(*******);
+  }
+  </style>
 ```
 
 # 项目目录
@@ -94,9 +94,10 @@ module.exports = {
 	```
 
 ## 何时使用 public 文件夹
+
 >你需要在构建输出中指定一个文件的名字。
 你有上千个图片，需要动态引用它们的路径。
-有些库可能和 webpack 不兼容，这时你除了将其用一个独立的 <script> 标签引入没有别的选择。
+有些库可能和 webpack 不兼容，这时你除了将其用一个独立的 `<script>`标签引入没有别的选择。
 
 
 
