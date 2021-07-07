@@ -15,7 +15,6 @@
         "cz-conventional-changelog": "^3.3.0",
         "cz-customizable": "^6.3.0",
         "vuepress": "^1.5.4",
-        "vuepress-plugin-permalink-pinyin": "^1.0.0"
     },
     "dependencies": {
         "markdown-it-checkbox": "^1.1.0",
