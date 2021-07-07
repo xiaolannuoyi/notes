@@ -26,7 +26,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: .vuepress/dist
+          folder: docs/.vuepress/dist
           clean: true
         # 该步骤所需的环境变量
         env:
