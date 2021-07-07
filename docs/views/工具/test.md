@@ -31,3 +31,32 @@ This is a dangerous warning
 ::: details
 这是一个详情块，在 IE / Edge 中不生效
 :::
+
+
+==adfasdfasf==
+[ ] 任务
+-->
+==>
+
+```js
+hello ( "world")
+
+class Foo{
+ log() {return "42"}
+}
+
+```
+
+
+
+  
+```js
+hello ( "world")
+
+class Foo{
+ log() {return "42"}
+}
+
+```
+<holdCode>sdfsdf</holdCode>
+

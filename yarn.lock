@@ -1249,20 +1249,37 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vuepress-reco/vuepress-plugin-back-to-top@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.5.5.tgz#779e1f3ca22babe3568123760f53b0dc93869602"
-  integrity sha1-d54fPKIrq+NWgSN2D1Ow3JOGlgI=
+"@vue/composition-api@^1.0.0-beta.20":
+  version "1.0.0-rc.13"
+  resolved "https://registry.nlark.com/@vue/composition-api/download/@vue/composition-api-1.0.0-rc.13.tgz?cache=0&sync_timestamp=1625215514610&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcomposition-api%2Fdownload%2F%40vue%2Fcomposition-api-1.0.0-rc.13.tgz#6cb768d0575b3c031ba15e05b09ecbd9780d941c"
+  integrity sha1-bLdo0FdbPAMboV4FsJ7L2XgNlBw=
+  dependencies:
+    tslib "^2.3.0"
+
+"@vuepress-reco/core@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/core/download/@vuepress-reco/core-1.6.2.tgz#b6dcd2f7a4b71b57f06857fe183af6ff0663c8b1"
+  integrity sha1-ttzS96S3G1fwaFf+GDr2/wZjyLE=
+  dependencies:
+    "@vue/composition-api" "^1.0.0-beta.20"
+    vue "^2.6.12"
+    vue-demi "^0.5.3"
+    vue-property-decorator "^9.1.2"
+
+"@vuepress-reco/vuepress-plugin-back-to-top@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
+  integrity sha1-Fs8aaETxVsEdUTXGRicMZzQmPrY=
 
 "@vuepress-reco/vuepress-plugin-bgm-player@^1.1.3":
   version "1.1.3"
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-bgm-player/download/@vuepress-reco/vuepress-plugin-bgm-player-1.1.3.tgz#47e1142908dfc7341c6507a8f1b71f14a357ab3e"
   integrity sha1-R+EUKQjfxzQcZQeo8bcfFKNXqz4=
 
-"@vuepress-reco/vuepress-plugin-comments@^1.4.6":
-  version "1.4.6"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.4.6.tgz#a89cbd372815e8995049f34f8038b22d6414195e"
-  integrity sha1-qJy9NygV6JlQSfNPgDiyLWQUGV4=
+"@vuepress-reco/vuepress-plugin-comments@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.6.0.tgz#df9fb43ce032d429b4c6defcaef461420593f69f"
+  integrity sha1-35+0POAy1Cm0xt78rvRhQgWT9p8=
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.1.1"
     "@vssue/api-gitee-v5" "^1.4.4"
@@ -1277,15 +1294,15 @@
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-kan-ban-niang/download/@vuepress-reco/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
   integrity sha1-c7RwlPGgevBZI/6a5sJaTDNYYWg=
 
-"@vuepress-reco/vuepress-plugin-loading-page@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.4.0.tgz#317202c9ef78825b3016c580a12791fc6e282511"
-  integrity sha1-MXICye94glswFsWAoSeR/G4oJRE=
+"@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
+  integrity sha1-NLcu00LcmxUCHQd/+Prq/lIUYVk=
 
-"@vuepress-reco/vuepress-plugin-pagation@^1.4.7":
-  version "1.4.7"
-  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.4.7.tgz#59677a0abaf62b7a1095bbc0cb7bd12a88f782e9"
-  integrity sha1-WWd6Crr2K3oQlbvAy3vRKoj3guk=
+"@vuepress-reco/vuepress-plugin-pagation@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.6.0.tgz#c632aae1638ff9c67fe58c39ab617132be9eeecb"
+  integrity sha1-xjKq4WOP+cZ/5Yw5q2FxMr6e7ss=
 
 "@vuepress/core@1.5.4":
   version "1.5.4"
@@ -1745,6 +1762,13 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
   dependencies:
     color-convert "^1.9.0"
+
+ansi-styles@^4.0.0:
+  version "4.3.0"
+  resolved "https://registry.nlark.com/ansi-styles/download/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
+  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
+  dependencies:
+    color-convert "^2.0.1"
 
 ansi-styles@^4.1.0:
   version "4.2.1"
@@ -2593,6 +2617,15 @@ cliui@^5.0.0:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
+
+cliui@^7.0.2:
+  version "7.0.4"
+  resolved "https://registry.npm.taobao.org/cliui/download/cliui-7.0.4.tgz?cache=0&sync_timestamp=1604880226973&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcliui%2Fdownload%2Fcliui-7.0.4.tgz#a0265ee655476fc807aea9df3df8df7783808b4f"
+  integrity sha1-oCZe5lVHb8gHrqnfPfjfd4OAi08=
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
 
 clone-response@^1.0.2:
   version "1.0.2"
@@ -3718,6 +3751,11 @@ escalade@^3.0.2:
   resolved "https://registry.npm.taobao.org/escalade/download/escalade-3.0.2.tgz#6a580d70edb87880f22b4c91d0d56078df6962c4"
   integrity sha1-algNcO24eIDyK0yR0NVgeN9pYsQ=
 
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA=
+
 escape-goat@^2.0.0:
   version "2.1.1"
   resolved "https://registry.npm.taobao.org/escape-goat/download/escape-goat-2.1.1.tgz#1b2dc77003676c457ec760b2dc68edb648188675"
@@ -4254,7 +4292,7 @@ gensync@^1.0.0-beta.1:
   resolved "https://registry.npm.taobao.org/gensync/download/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
   integrity sha1-WPQ2H/mH5f9uHnohCCeqNx6qwmk=
 
-get-caller-file@^2.0.1:
+get-caller-file@^2.0.1, get-caller-file@^2.0.5:
   version "2.0.5"
   resolved "https://registry.npm.taobao.org/get-caller-file/download/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
@@ -5748,6 +5786,13 @@ markdown-it-chain@^1.3.0:
   dependencies:
     webpack-chain "^4.9.0"
 
+markdown-it-checkbox@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-checkbox/download/markdown-it-checkbox-1.1.0.tgz#20cff97f33d77d172f9dcf1bcfc92cecc5330fac"
+  integrity sha1-IM/5fzPXfRcvnc8bz8ks7MUzD6w=
+  dependencies:
+    underscore "^1.8.2"
+
 markdown-it-container@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/markdown-it-container/download/markdown-it-container-2.0.0.tgz#0019b43fd02eefece2f1960a2895fba81a404695"
@@ -5757,6 +5802,26 @@ markdown-it-emoji@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
+
+markdown-it-kbd@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-kbd/download/markdown-it-kbd-2.2.0.tgz#5ab0e9f285f61d27c46b482f215dc4641873c3a2"
+  integrity sha1-WrDp8oX2HSfEa0gvIV3EZBhzw6I=
+
+markdown-it-mark@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-mark/download/markdown-it-mark-3.0.0.tgz#27c3e39ef3cc310b2dde5375082c9fa912983cda"
+  integrity sha1-J8PjnvPMMQst3lN1CCyfqRKYPNo=
+
+markdown-it-prettier@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-prettier/download/markdown-it-prettier-1.1.0.tgz#4d6a58c8c2d0fc07f0b32a9ac91144f00a689430"
+  integrity sha1-TWpYyMLQ/AfwsyqayRFE8ApolDA=
+
+markdown-it-smartarrows@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/markdown-it-smartarrows/download/markdown-it-smartarrows-1.0.1.tgz#b570e9c0ff9812e0db6ace19afa5ba12b64bb9a7"
+  integrity sha1-tXDpwP+YEuDbas4Zr6W6ErZLuac=
 
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.4"
@@ -8058,6 +8123,15 @@ string-width@^4.0.0, string-width@^4.1.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
+string-width@^4.2.0:
+  version "4.2.2"
+  resolved "https://registry.npm.taobao.org/string-width/download/string-width-4.2.2.tgz?cache=0&sync_timestamp=1618558856477&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fstring-width%2Fdownload%2Fstring-width-4.2.2.tgz#dafd4f9559a7585cfba529c6a0a4f73488ebd4c5"
+  integrity sha1-2v1PlVmnWFz7pSnGoKT3NIjr1MU=
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.0"
+
 string.prototype.trimend@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/string.prototype.trimend/download/string.prototype.trimend-1.0.1.tgz#85812a6b847ac002270f5808146064c995fb6913"
@@ -8448,10 +8522,22 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+transliteration@^2.1.2:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/transliteration/download/transliteration-2.2.0.tgz#e6333cc74b25ef4465bc27086ed8465c9a19211d"
+  integrity sha1-5jM8x0sl70RlvCcIbthGXJoZIR0=
+  dependencies:
+    yargs "^16.1.0"
+
 tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
+
+tslib@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.nlark.com/tslib/download/tslib-2.3.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4=
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -8513,7 +8599,7 @@ uglify-js@3.4.x:
     commander "~2.19.0"
     source-map "~0.6.1"
 
-underscore@^1.8.3:
+underscore@^1.8.2, underscore@^1.8.3:
   version "1.11.0"
   resolved "https://registry.npm.taobao.org/underscore/download/underscore-1.11.0.tgz#dd7c23a195db34267186044649870ff1bab5929e"
   integrity sha1-3XwjoZXbNCZxhgRGSYcP8bq1kp4=
@@ -8799,6 +8885,11 @@ vue-click-outside@1.1.0:
   resolved "https://registry.npm.taobao.org/vue-click-outside/download/vue-click-outside-1.1.0.tgz#48b7680b518923e701643cccb3e165854aad99eb"
   integrity sha1-SLdoC1GJI+cBZDzMs+FlhUqtmes=
 
+vue-demi@^0.5.3:
+  version "0.5.4"
+  resolved "https://registry.nlark.com/vue-demi/download/vue-demi-0.5.4.tgz?cache=0&sync_timestamp=1625457287276&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-demi%2Fdownload%2Fvue-demi-0.5.4.tgz#cedb887af819ff0126c545a5540170d8895b816d"
+  integrity sha1-ztuIevgZ/wEmxUWlVAFw2IlbgW0=
+
 vue-disqus@^3.0.5:
   version "3.0.5"
   resolved "https://registry.npm.taobao.org/vue-disqus/download/vue-disqus-3.0.5.tgz#8d0dd5cabdba7c47f82d129d2907a64366842fa8"
@@ -8831,6 +8922,11 @@ vue-property-decorator@^8.1.1:
   integrity sha1-VxqRz40rUH9TfXm/gnWvMYRXL/8=
   dependencies:
     vue-class-component "^7.1.0"
+
+vue-property-decorator@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.npm.taobao.org/vue-property-decorator/download/vue-property-decorator-9.1.2.tgz#266a2eac61ba6527e2e68a6933cfb98fddab5457"
+  integrity sha1-JmourGG6ZSfi5oppM8+5j92rVFc=
 
 vue-router@^3.1.3:
   version "3.4.3"
@@ -8876,6 +8972,11 @@ vue@^2.6.10:
   version "2.6.12"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha1-9evU+mvShpQD4pqJau1JBEVskSM=
+
+vue@^2.6.12:
+  version "2.6.14"
+  resolved "https://registry.nlark.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
+  integrity sha1-5RqlJQJQ1Wmj+606ilpofWA24jU=
 
 vuejs-paginate@^2.1.0:
   version "2.1.0"
@@ -8938,6 +9039,13 @@ vuepress-plugin-nuggets-style-copy@^1.0.3:
   dependencies:
     clipboard "^2.0.4"
 
+vuepress-plugin-permalink-pinyin@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/vuepress-plugin-permalink-pinyin/download/vuepress-plugin-permalink-pinyin-1.0.0.tgz#5961878d59beec6124bce8336326892c21af4dfe"
+  integrity sha1-WWGHjVm+7GEkvOgzYyaJLCGvTf4=
+  dependencies:
+    transliteration "^2.1.2"
+
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-sitemap/download/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"
@@ -8959,20 +9067,23 @@ vuepress-plugin-smooth-scroll@^0.0.9:
   dependencies:
     smoothscroll-polyfill "^0.4.4"
 
-vuepress-theme-reco@^1.5.5:
-  version "1.5.5"
-  resolved "https://registry.npm.taobao.org/vuepress-theme-reco/download/vuepress-theme-reco-1.5.5.tgz#8ea5293991d0321e5f1e5e4dbbb6d94f4c8a7cc0"
-  integrity sha1-jqUpOZHQMh5fHl5Nu7bZT0yKfMA=
+vuepress-theme-reco@^1.6.6:
+  version "1.6.6"
+  resolved "https://registry.npm.taobao.org/vuepress-theme-reco/download/vuepress-theme-reco-1.6.6.tgz#f286f0000b1702b9511a439469c15b0d2b1e992d"
+  integrity sha1-8obwAAsXArlRGkOUacFbDSsemS0=
   dependencies:
-    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.5.5"
-    "@vuepress-reco/vuepress-plugin-comments" "^1.4.6"
-    "@vuepress-reco/vuepress-plugin-loading-page" "^1.4.0"
-    "@vuepress-reco/vuepress-plugin-pagation" "^1.4.7"
+    "@vue/composition-api" "^1.0.0-beta.20"
+    "@vuepress-reco/core" "^1.6.2"
+    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.0"
+    "@vuepress-reco/vuepress-plugin-comments" "^1.6.0"
+    "@vuepress-reco/vuepress-plugin-loading-page" "^1.6.0"
+    "@vuepress-reco/vuepress-plugin-pagation" "^1.6.0"
     "@vuepress/plugin-blog" "1.9.2"
     "@vuepress/plugin-medium-zoom" "1.5.0"
     docsearch.js "2.6.3"
     md5 "2.2.1"
     vue-click-outside "1.1.0"
+    vue-demi "^0.5.3"
     vuepress-plugin-smooth-scroll "^0.0.9"
 
 vuepress@^1.5.4:
@@ -9363,6 +9474,15 @@ wrap-ansi@^5.1.0:
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
 
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npm.taobao.org/wrap-ansi/download/wrap-ansi-7.0.0.tgz?cache=0&sync_timestamp=1618558923406&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwrap-ansi%2Fdownload%2Fwrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM=
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/wrappy/download/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
@@ -9430,6 +9550,11 @@ y18n@^4.0.0:
   resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz?cache=0&sync_timestamp=1599868292468&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fy18n%2Fdownload%2Fy18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
 
+y18n@^5.0.5:
+  version "5.0.8"
+  resolved "https://registry.npm.taobao.org/y18n/download/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
+  integrity sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU=
+
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/yallist/download/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
@@ -9453,6 +9578,11 @@ yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
+yargs-parser@^20.2.2:
+  version "20.2.9"
+  resolved "https://registry.nlark.com/yargs-parser/download/yargs-parser-20.2.9.tgz?cache=0&sync_timestamp=1624233275366&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fyargs-parser%2Fdownload%2Fyargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
+  integrity sha1-LrfcOwKJcY/ClfNidThFxBoMlO4=
+
 yargs@^13.3.2:
   version "13.3.2"
   resolved "https://registry.npm.taobao.org/yargs/download/yargs-13.3.2.tgz?cache=0&sync_timestamp=1599709288215&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
@@ -9468,6 +9598,19 @@ yargs@^13.3.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
+
+yargs@^16.1.0:
+  version "16.2.0"
+  resolved "https://registry.nlark.com/yargs/download/yargs-16.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fyargs%2Fdownload%2Fyargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
+  integrity sha1-HIK/D2tqZur85+8w43b0mhJHf2Y=
+  dependencies:
+    cliui "^7.0.2"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
+    require-directory "^2.1.1"
+    string-width "^4.2.0"
+    y18n "^5.0.5"
+    yargs-parser "^20.2.2"
 
 yargs@^3.10.0:
   version "3.32.0"

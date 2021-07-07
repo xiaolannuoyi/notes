@@ -15,7 +15,8 @@ module.exports = {
       {
         text: 'notes', icon: 'reco-document',
         items: [
-          { text: '面试', link: '/views/前端/面试/' }
+          { text: '面试', link: '/views/前端/面试/' },
+          { text: 'Element-Plus 源码分析', link: '/views/前端/Element-Plus 源码分析/' }
         ]
       },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
@@ -40,6 +41,23 @@ module.exports = {
             '6-算法',
             '原型',
             'set and map',
+          ]
+        },
+      ],
+      '/views/前端/Element-Plus 源码分析/': [
+        {
+          title: 'Element-Plus 源码分析',
+          collapsable: true,
+          children: [
+            'icon',
+            'layout',
+            'radio',
+            'checkbox',
+            'input',
+            'input-number',
+            'switch',
+            'pagination',
+            'rate'
           ]
         },
       ]
@@ -79,7 +97,7 @@ module.exports = {
     //     keys: ['e10adc3949ba59abbe56e057f20f883e'], // 1.3.0 版本后需要设置为密文
     //     color: '#42b983', // 登录页动画球的颜色
     //     lineColor: '#42b983' // 登录页动画线的颜色
-    // }
+    // },
     // valine 设置
     valineConfig: {
       // 国际版
@@ -91,7 +109,20 @@ module.exports = {
     },
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    // markdown-it-anchor 的选项
+    // anchor: { permalink: false },
+    // markdown-it-toc 的选项
+    // toc: { includeLevel: [1, 2] },
+    extendMarkdown: md => {
+      // 使用更多的 markdown-it 插件!
+      md.use(require('markdown-it-mark')),
+      md.use(require('markdown-it-kbd')),
+      md.use(require('markdown-it-checkbox')),
+      md.use(require('markdown-it-smartarrows'))
+      md.use(require('markdown-it-prettier'),{singleQuote: true})
+
+    }
   },
   plugins: [
     //看板娘
@@ -143,5 +174,13 @@ module.exports = {
         content: "复制成功!"
       }
     }],
+    // 支持中文文件名
+    [
+      "permalink-pinyin",
+      {
+        lowercase: true, // Converted into lowercase, default: true
+        separator: "-", // Separator of the slug, default: '-'
+      },
+    ],
   ]
 }
