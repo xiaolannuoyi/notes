@@ -574,5 +574,9 @@ tags:
 
    
 
-10. 
+10. [探索el-input使用v-model.trim后无法输入空格的问题](https://darknesschaser.github.io/2020/12/06/%E6%8E%A2%E7%B4%A2el-input%E4%BD%BF%E7%94%A8v-model.trim%E5%90%8E%E6%97%A0%E6%B3%95%E8%BE%93%E5%85%A5%E7%A9%BA%E6%A0%BC%E7%9A%84%E9%97%AE%E9%A2%98/)
+
+   > trim修饰符作用在v-model上的时候会导致数据层数据和dom层value不一致的情况，所以就需要一个机制来把数据层trim后的值重新和dom层同步。原生dom是在blur上，component需要自己处理。因为elementui在处理的时候用的是父组件trim后的值，所以会导致空格无法输入。
+
+11. 
 
