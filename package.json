@@ -24,8 +24,7 @@
         "markdown-it-prettier": "^1.1.0",
         "markdown-it-smartarrows": "^1.0.1",
         "vuepress-plugin-container": "^2.1.5",
-        "vuepress-plugin-nuggets-style-copy": "^1.0.3",
-        "vuepress-theme-reco": "1.5.5"
+        "vuepress-theme-reco": "1.6.14"
     },
     "config": {
         "commitizen": {
