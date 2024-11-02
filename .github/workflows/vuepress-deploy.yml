@@ -6,7 +6,7 @@ name: Build and Deploy
 on: 
   push:
     branches:
-      - master
+      - reco2
 # 工作流执行的一个或多个任务
 jobs:
   # 任务名称
@@ -19,10 +19,10 @@ jobs:
       - name: Checkout 🛎️
         # 使用的操作 actions，可以使用公共仓库，本地仓库，别人的仓库的action
         # 拉取代码
-        uses: actions/checkout@master
+        uses: actions/checkout@reco2
           
       - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
+        uses: jenkey2011/vuepress-deploy@reco2
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_BRANCH: gh-pages
